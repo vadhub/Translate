@@ -1,0 +1,11 @@
+package com.vg.starter;
+
+import com.gtranslate.Translator;
+
+public class Starter {
+
+	public static void main(String[] args) {
+		Translator translate = Translator.getInstance();
+	}
+
+}
