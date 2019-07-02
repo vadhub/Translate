@@ -11,19 +11,15 @@ public class Traslater {
 		st.put("Hello", "Привет");
 		st.put("World", "Мир");
 		
-		String[] subStr;
-		String delimeter = " ";
-		subStr = englis.split(delimeter);
-		int i = 0;
+		
+		
 		for (Map.Entry<String, String> entry : st.entrySet()) {
 			
-			if(entry.getKey().contentEquals(subStr[i])){
+			if(entry.getKey().contentEquals(englis)){
 				System.out.println(entry.getValue());			
 			}else{
 				System.err.println("Error");
 			}
-			
-			i++;
 		}
 		
 	}

@@ -473,3 +473,18 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 
 !ENTRY org.eclipse.recommenders.models.rcp 1 0 2019-07-02 13:26:07.911
 !MESSAGE jre:jre:call:zip:1.0.0 could not be resolved from model repositories. Are you offline?
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2019-07-02 13:35:26.494
+!MESSAGE jre:jre:call:zip:1.0.0 could not be resolved from model repositories. Are you offline?
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2019-07-02 13:35:33.857
+!MESSAGE jre:jre:call:zip:1.0.0 could not be resolved from model repositories. Are you offline?
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 13:35:36.306
+!MESSAGE Can't handle %s as source for finding entrypoints.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-02 13:35:40.315
+!MESSAGE Can't handle %s as source for finding entrypoints.
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2019-07-02 13:35:44.917
+!MESSAGE jre:jre:call:zip:1.0.0 could not be resolved from model repositories. Are you offline?
