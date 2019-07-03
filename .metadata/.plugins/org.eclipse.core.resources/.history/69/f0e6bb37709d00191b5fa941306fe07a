@@ -1,0 +1,14 @@
+package com.vg.connectordb;
+
+import java.sql.DriverManager;
+
+import com.mysql.jdbc.Connection;
+
+public class Connector {
+	private static final String url = "";
+	
+	public void connect(){
+		Class.forName("org.h2.Driver");
+		Connection con = DriverManager.getConnection("");
+	}
+}

@@ -1,0 +1,18 @@
+package com.vg.starter;
+
+import java.sql.SQLException;
+
+import com.vg.connectordb.Connector;
+import com.vg.translate.Traslater;
+
+public class Starter {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		//Traslater tr = new Traslater();
+		//tr.translateToRus("hello world");
+		Connector con = new Connector();
+		System.out.println(con.connect());
+		
+	}
+
+}

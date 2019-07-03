@@ -1,0 +1,5 @@
+package com.vg.connectordb;
+
+public class Connector {
+	
+}

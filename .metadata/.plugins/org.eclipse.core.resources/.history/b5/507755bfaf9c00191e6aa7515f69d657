@@ -1,7 +1,0 @@
-package com.vg.translate;
-
-import java.util.HashMap;
-
-public class Traslater {
-	HashMap<String, String> str = new HashMap<String, String>();
-}

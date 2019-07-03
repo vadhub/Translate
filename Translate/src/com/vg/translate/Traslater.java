@@ -8,25 +8,26 @@ public class Traslater {
 	
 	public void translateToRus(String englis){
 		
-		st.put("Hello", "Привет");
-		st.put("World", "Мир");
+		st.put("hello", "привет");
+		st.put("world", "мир");
+		st.put("son", "сын");
 		
 		String[] subStr;
 		String delimeter = " ";
 		subStr = englis.split(delimeter);
-		int i = 0;
-		for (Map.Entry<String, String> entry : st.entrySet()) {
-			
-			if(entry.getKey().contentEquals(subStr[i])){
-				System.out.println(entry.getValue());			
-			}else{
-				System.err.println("Error");
-			}
-			
-			i++;
-		}
 		
-	}
+		int i = 0;
+		
+		for(String arr: subStr){
+				for (Map.Entry<String, String> entry : st.entrySet()) {
+					String str = entry.getKey();
+					if(str.equals(arr)){
+						System.out.println(entry.getValue());
+					}					
+				}
+		
+			}
+		}
 	public HashMap<String, String> getSt() {
 		return st;
 	}
