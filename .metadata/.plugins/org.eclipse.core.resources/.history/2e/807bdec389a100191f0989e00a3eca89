@@ -1,0 +1,11 @@
+package com.vg.hibernate;
+
+public class Dictionary {
+	
+	public Dictionary() {}
+	
+	private int id;
+	private String en;
+	private String ru;
+
+}
