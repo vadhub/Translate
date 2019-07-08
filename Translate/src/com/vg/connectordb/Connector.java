@@ -29,15 +29,30 @@ public class Connector {
 	}
 	
 	public Statement state() throws ClassNotFoundException, SQLException{
-		return stmt = connect().createStatement();
+		return setStmt(connect().createStatement());
 	}
 	
 	public ResultSet result(String query) throws ClassNotFoundException, SQLException{
-		return rs = state().executeQuery(query);
+		return setRs(state().executeQuery(query));
 		
 	}
-	
-	
-	
+
+	public static Statement getStmt() {
+		return stmt;
+	}
+
+	public static Statement setStmt(Statement stmt) {
+		Connector.stmt = stmt;
+		return stmt;
+	}
+
+	public static ResultSet getRs() {
+		return rs;
+	}
+
+	public static ResultSet setRs(ResultSet rs) {
+		Connector.rs = rs;
+		return rs;
+	}
 	
 }

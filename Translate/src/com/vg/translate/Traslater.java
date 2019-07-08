@@ -1,16 +1,37 @@
 package com.vg.translate;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.vg.connectordb.Connector;
+
 public class Traslater {
 	private HashMap<String, String> st = new HashMap<String, String>();
+	private static final String url= "jdbc:mysql://localhost:3306/dictionary";
+	private static final String user= "person";
+	private static final String password= "1234";
 	
-	public void translateToRus(String englis){
+	String sql = "SELECT en, ru FROM dictionary";
+	
+	public void translateToRus(String englis) throws SQLException, ClassNotFoundException{
+		Connection con = DriverManager.getConnection(url,user, password);
+		Statement stmt = con.createStatement();
+		ResultSet rs = stmt.executeQuery(sql);
+	
+		int eng = rs.findColumn("en");
+		int rus = rs.findColumn("ru");
 		
-		st.put("hello", "привет");
-		st.put("world", "мир");
-		st.put("son", "сын");
+		while(rs.next()){
+			String en = rs.getString(eng);
+			String ru = rs.getString(rus);
+			
+			st.put(en, ru);
+		}
 		
 		String[] subStr;
 		String delimeter = " ";
@@ -22,7 +43,7 @@ public class Traslater {
 				for (Map.Entry<String, String> entry : st.entrySet()) {
 					String str = entry.getKey();
 					if(str.equals(arr)){
-						System.out.println(entry.getValue());
+						System.out.print(entry.getValue()+" ");
 					}					
 				}
 		

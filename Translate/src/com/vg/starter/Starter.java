@@ -1,6 +1,10 @@
 package com.vg.starter;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 import com.vg.connectordb.Connector;
 import com.vg.translate.Traslater;
@@ -12,13 +16,9 @@ public class Starter {
 	private static final String password= "1234";
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
-		//Traslater tr = new Traslater();
-		//tr.translateToRus("hello world");
-		Connector con = new Connector(url, user, password);
-		con.connect();
-		con.state();
-		con.result(query)
-		
-	}
+		Traslater tr = new Traslater();
+		tr.translateToRus("abandon about aboard");
+		}
+	
 
 }

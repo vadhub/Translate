@@ -1,2 +1,4 @@
 1562061412435	Encapsulate field 'st'
 1562093132025	Rename package 'com.vg.connectorDB'
+1562146453169	Encapsulate field 'stmt'
+1562146458489	Encapsulate field 'rs'

@@ -1,0 +1,28 @@
+package com.vg.starter;
+
+import java.sql.SQLException;
+
+import com.vg.connectordb.Connector;
+import com.vg.translate.Traslater;
+
+public class Starter {
+	
+	private static final String url= "jdbc:mysql://localhost:3306/dictionary";
+	private static final String user= "person";
+	private static final String password= "1234";
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		//Traslater tr = new Traslater();
+		//tr.translateToRus("hello world");
+		
+		String sql = "INSERT INTO dictionary VALUES (1, 'string', 'строка')";
+		
+		Connector con = new Connector(url, user, password);
+		con.connect();
+		con.state();
+		
+		con.setRs(con.state().executeUpdate(""));
+				
+	}
+
+}

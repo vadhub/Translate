@@ -1,0 +1,50 @@
+package com.vg.translate;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.HashMap;
+import java.util.Map;
+
+import com.vg.connectordb.Connector;
+
+public class Traslater {
+	private HashMap<String, String> st = new HashMap<String, String>();
+	private static final String url= "jdbc:mysql://localhost:3306/dictionary";
+	private static final String user= "person";
+	private static final String password= "1234";
+	
+	public void translateToRus(String englis) throws SQLException, ClassNotFoundException{
+		Connector con = new Connector(url, user, password);
+		con.connect();
+		ResultSet rs = (ResultSet) con.state();
+		int eng = rs.findColumn("en");
+		int rus = rs.findColumn("ru");
+		
+		while(rs.next()){
+			String en = rs.getString(eng);
+			String ru = rs.getString(rus);
+		}
+		
+		String[] subStr;
+		String delimeter = " ";
+		subStr = englis.split(delimeter);
+		
+		int i = 0;
+		
+		for(String arr: subStr){
+				for (Map.Entry<String, String> entry : st.entrySet()) {
+					String str = entry.getKey();
+					if(str.equals(arr)){
+						System.out.println(entry.getValue());
+					}					
+				}
+		
+			}
+		}
+	public HashMap<String, String> getSt() {
+		return st;
+	}
+	public void setSt(HashMap<String, String> st) {
+		this.st = st;
+	}
+}
