@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="hibernatetest">
+<class name="dictionary" table="">
+<id name="id" type="int" unsaved-value="null"><column name="id"/>
+<generator class="uuid.hex"/>
+</id>
+<properties name="userName" column="userName"/>
+<properties name="password" column="password"/>
+</class>
+</hibernate-mapping>
