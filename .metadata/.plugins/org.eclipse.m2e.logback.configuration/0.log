@@ -228,3 +228,159 @@ java.lang.IllegalArgumentException: Path must include project and resource name:
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648) [org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar:na]
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603) [org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar:na]
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465) [org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar:na]
+2019-07-09 12:59:59,287 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2019-07-09 13:00:05,215 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Вадим\workspace\Translator\Translate
+2019-07-09 13:00:05,215 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B 
+2019-07-09 13:01:05,966 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2019-07-09 13:01:10,225 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Вадим\workspace\Translator\Translate
+2019-07-09 13:01:10,225 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B 
+2019-07-09 13:01:47,474 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Translate:Translate:0.0.1-SNAPSHOT @ C:\Users\Вадим\workspace\Translator\Translate\pom.xml.
+2019-07-09 13:01:48,286 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.2.Final/hibernate-core-5.4.2.Final.pom
+2019-07-09 13:01:48,691 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.2.Final/hibernate-core-5.4.2.Final.pom
+2019-07-09 13:01:48,785 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.pom
+2019-07-09 13:01:49,019 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.pom
+2019-07-09 13:01:49,128 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/jboss-parent/15/jboss-parent-15.pom
+2019-07-09 13:01:49,456 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/jboss-parent/15/jboss-parent-15.pom
+2019-07-09 13:01:49,580 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.pom
+2019-07-09 13:01:49,799 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.pom
+2019-07-09 13:01:49,939 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/java/jvnet-parent/5/jvnet-parent-5.pom
+2019-07-09 13:01:50,158 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/java/jvnet-parent/5/jvnet-parent-5.pom
+2019-07-09 13:01:50,267 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.pom
+2019-07-09 13:01:50,470 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.pom
+2019-07-09 13:01:50,563 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.pom
+2019-07-09 13:01:50,766 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.pom
+2019-07-09 13:01:50,875 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.pom
+2019-07-09 13:01:51,796 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.pom
+2019-07-09 13:01:51,936 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.pom
+2019-07-09 13:01:52,139 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.pom
+2019-07-09 13:01:52,232 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/jboss-parent/25/jboss-parent-25.pom
+2019-07-09 13:01:53,184 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/jboss-parent/25/jboss-parent-25.pom
+2019-07-09 13:01:53,293 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.pom
+2019-07-09 13:01:53,480 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.pom
+2019-07-09 13:01:53,590 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/jboss-parent/12/jboss-parent-12.pom
+2019-07-09 13:01:53,839 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/jboss-parent/12/jboss-parent-12.pom
+2019-07-09 13:01:53,933 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.3.4/classmate-1.3.4.pom
+2019-07-09 13:01:54,198 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.3.4/classmate-1.3.4.pom
+2019-07-09 13:01:54,292 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/24/oss-parent-24.pom
+2019-07-09 13:01:54,510 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/24/oss-parent-24.pom
+2019-07-09 13:01:54,619 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.pom
+2019-07-09 13:01:54,806 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.pom
+2019-07-09 13:01:54,916 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/sun/activation/all/1.2.0/all-1.2.0.pom
+2019-07-09 13:01:55,150 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/activation/all/1.2.0/all-1.2.0.pom
+2019-07-09 13:01:55,243 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2019-07-09 13:01:55,446 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2019-07-09 13:01:55,540 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.pom
+2019-07-09 13:01:55,742 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.pom
+2019-07-09 13:01:55,836 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.pom
+2019-07-09 13:01:56,039 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.pom
+2019-07-09 13:01:56,132 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.pom
+2019-07-09 13:01:56,351 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.pom
+2019-07-09 13:01:56,444 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api-parent/2.3.1/jaxb-api-parent-2.3.1.pom
+2019-07-09 13:01:56,663 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api-parent/2.3.1/jaxb-api-parent-2.3.1.pom
+2019-07-09 13:01:56,772 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.pom
+2019-07-09 13:01:56,990 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.pom
+2019-07-09 13:01:57,084 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/2.3.1/jaxb-runtime-parent-2.3.1.pom
+2019-07-09 13:01:57,271 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/2.3.1/jaxb-runtime-parent-2.3.1.pom
+2019-07-09 13:01:57,380 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/2.3.1/jaxb-parent-2.3.1.pom
+2019-07-09 13:01:57,661 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/2.3.1/jaxb-parent-2.3.1.pom
+2019-07-09 13:01:57,770 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/2.3.1/jaxb-bom-ext-2.3.1.pom
+2019-07-09 13:01:57,973 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/2.3.1/jaxb-bom-ext-2.3.1.pom
+2019-07-09 13:01:58,067 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/2.3.1/jaxb-bom-2.3.1.pom
+2019-07-09 13:01:58,285 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/2.3.1/jaxb-bom-2.3.1.pom
+2019-07-09 13:01:58,394 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.pom
+2019-07-09 13:01:58,582 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2019-07-09 13:01:58,675 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.pom
+2019-07-09 13:01:58,784 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/2.3.1/jaxb-txw-parent-2.3.1.pom
+2019-07-09 13:01:59,003 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/2.3.1/jaxb-txw-parent-2.3.1.pom
+2019-07-09 13:01:59,112 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.pom
+2019-07-09 13:01:59,377 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.pom
+2019-07-09 13:01:59,471 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/3.0.7/istack-commons-3.0.7.pom
+2019-07-09 13:01:59,674 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/3.0.7/istack-commons-3.0.7.pom
+2019-07-09 13:01:59,783 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.pom
+2019-07-09 13:02:00,001 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.pom
+2019-07-09 13:02:00,110 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.pom
+2019-07-09 13:02:00,313 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.pom
+2019-07-09 13:02:00,407 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/fastinfoset-project/1.2.15/fastinfoset-project-1.2.15.pom
+2019-07-09 13:02:00,610 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/fastinfoset-project/1.2.15/fastinfoset-project-1.2.15.pom
+2019-07-09 13:02:00,766 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.2.Final/hibernate-core-5.4.2.Final.jar
+2019-07-09 13:02:13,981 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.2.Final/hibernate-core-5.4.2.Final.jar
+2019-07-09 13:02:14,074 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar
+2019-07-09 13:02:14,636 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar
+2019-07-09 13:02:14,730 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar
+2019-07-09 13:02:15,385 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar
+2019-07-09 13:02:15,478 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar
+2019-07-09 13:02:17,631 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar
+2019-07-09 13:02:17,725 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+2019-07-09 13:02:26,211 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+2019-07-09 13:02:26,320 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar
+2019-07-09 13:02:26,523 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar
+2019-07-09 13:02:26,628 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar
+2019-07-09 13:02:27,304 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar
+2019-07-09 13:02:27,397 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar
+2019-07-09 13:02:27,865 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar
+2019-07-09 13:02:27,959 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar
+2019-07-09 13:02:28,333 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar
+2019-07-09 13:02:28,427 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar
+2019-07-09 13:02:29,659 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar
+2019-07-09 13:02:29,753 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar
+2019-07-09 13:02:30,158 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar
+2019-07-09 13:02:30,252 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar
+2019-07-09 13:02:30,829 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar
+2019-07-09 13:02:30,923 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar
+2019-07-09 13:02:34,199 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar
+2019-07-09 13:02:34,292 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar
+2019-07-09 13:02:34,682 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar
+2019-07-09 13:02:34,776 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar
+2019-07-09 13:02:34,994 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar
+2019-07-09 13:02:35,104 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar
+2019-07-09 13:02:35,478 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar
+2019-07-09 13:02:35,572 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar
+2019-07-09 13:02:36,991 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar
+2019-07-09 13:02:41,593 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:02:41,593 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\main\resources
+2019-07-09 13:02:41,593 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:02:41,593 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\test\resources
+2019-07-09 13:02:41,671 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Translate/src
+2019-07-09 13:02:41,671 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Translate/src/test/java because it overlaps with /Translate/src
+2019-07-09 13:02:41,890 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-07-09 13:02:41,936 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Translate:Translate:0.0.1-SNAPSHOT @ C:\Users\Вадим\workspace\Translator\Translate\pom.xml.
+2019-07-09 13:02:42,248 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Translate/src
+2019-07-09 13:02:42,248 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Translate/src/test/java because it overlaps with /Translate/src
+2019-07-09 13:02:42,404 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2019-07-09 13:02:42,888 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:02:42,888 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\main\resources
+2019-07-09 13:02:42,888 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:02:42,888 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\test\resources
+2019-07-09 13:02:43,949 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Вадим\workspace\Translator\Translate
+2019-07-09 13:02:43,949 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B 
+2019-07-09 13:13:20,556 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:13:20,556 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\main\resources
+2019-07-09 13:13:20,556 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:13:20,556 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\test\resources
+2019-07-09 13:14:00,835 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:14:00,835 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\main\resources
+2019-07-09 13:14:00,835 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:14:00,835 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\test\resources
+2019-07-09 13:14:28,494 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:14:28,494 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\main\resources
+2019-07-09 13:14:28,510 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:14:28,510 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\test\resources
+2019-07-09 13:15:52,035 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:15:52,035 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\main\resources
+2019-07-09 13:15:52,035 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:15:52,035 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\test\resources
+2019-07-09 13:16:27,463 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:16:27,463 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\main\resources
+2019-07-09 13:16:27,463 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:16:27,463 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\test\resources
+2019-07-09 13:17:27,991 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:17:27,991 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\main\resources
+2019-07-09 13:17:28,006 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:17:28,006 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\test\resources
+2019-07-09 13:17:54,199 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:17:54,214 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\main\resources
+2019-07-09 13:17:54,214 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:17:54,214 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\test\resources
+2019-07-09 13:19:29,235 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 13:19:29,235 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Вадим\workspace\Translator\Translate\src\main\resources
+2019-07-09 13:19:29,235 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!

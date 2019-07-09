@@ -1,0 +1,10 @@
+package com.vg.hibernate;
+
+import org.hibernate.SessionFactory;
+
+
+public class HibernateSessionFactor {
+	   private static SessionFactory sessionFactory = buildSessionFactory();
+
+}
+

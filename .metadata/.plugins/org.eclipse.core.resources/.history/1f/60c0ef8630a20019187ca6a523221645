@@ -1,0 +1,9 @@
+package com.vg.hibernate;
+
+
+public class HibernateDictionary {
+	private static final SessionFactory setionFactory;
+	
+
+}
+

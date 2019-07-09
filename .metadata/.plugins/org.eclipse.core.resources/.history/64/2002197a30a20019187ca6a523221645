@@ -1,0 +1,10 @@
+package com.vg.hibernate;
+
+import org.hibernate
+
+public class HibernateDictionary {
+	private static final SessionFactory setionFactory;
+	
+
+}
+

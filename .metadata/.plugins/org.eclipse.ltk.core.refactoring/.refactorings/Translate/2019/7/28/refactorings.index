@@ -4,3 +4,6 @@
 1562658505270	Delete element
 1562660701287	Move file
 1562660711427	Move file
+1562664828701	Rename resource 'User.hbm.xml'
+1562667240632	Rename type 'HibernateDictionary'
+1562667268276	Rename type 'HibernateSeassonFactor'

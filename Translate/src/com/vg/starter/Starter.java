@@ -16,8 +16,10 @@ public class Starter {
 	private static final String password= "1234";
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
-		Traslater tr = new Traslater();
-		tr.translateToRus("abandon about aboard");
+		//Traslater tr = new Traslater();
+		//tr.translateToRus("abandon about aboard");
+		
+		
 		}
 	
 
